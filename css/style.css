@@ -11,6 +11,16 @@ h1 {
     font-size: 48px;
     font-size: bold;
 }
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+}
+
 h4 {
     color: #B8B08D;
     font-family: 'Raleway', sans-serif;
@@ -26,21 +36,34 @@ h5 {
     line-height: 42px;
 }
 
-p {
-    color: #202C39;
+h6 {
     font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #B8B08D; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
     font-size: 18px;
-    font-style: light;
+    line-height: 21px;
+    letter-spacing: 0.05em;
 }
 
 button {
     background-color: #B8B08D;
     color: #202C39;
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-style: light;
-    width: 185px;
-    height: 29px;
+    width: 250px;
+    height: 45px;
     border: none;
     border-radius: 25px;
 }
@@ -216,3 +239,107 @@ footer {
     margin: 50px;
 }
 
+
+
+/**My Works Section**/ 
+.myWorks {
+    border-bottom: solid #F29559 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contentHeader {
+    margin-left: 163px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.workCard {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 70%;
+    height: 483px;
+    display: flex;
+    background-color: #283B45;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.workCard img {
+    margin-left: 50px;
+}
+
+.cardText {
+    color:#B8B08D;
+    width: 60%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.small {
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+}
+
+.cardText button {
+    margin-top: 20px;
+}
+
+.viewProjects {
+    margin: auto;
+}
+
+.buttonHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonHolder button {
+    margin-bottom: 50px;
+    width: 300px;
+    height: 55px;
+    font-size: 18px;
+    font-style: bold;
+}
+
+
+/** Skills Section **/ 
+.mySkills {
+    border-bottom: solid #F29559 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1 fr 1fr;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.skillCard {
+    margin-bottom: 50px;
+}
+
+/** Tools Section **/ 
+.myTools {
+    border-bottom: solid #F29559 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cardContainer2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 10%;
+    margin-bottom: 50px;
+}
+
+.skillCard {
+    margin-bottom: 50px;
+}
